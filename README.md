@@ -1,46 +1,21 @@
-# Getting Started with Create React App
+// Copyright (c) Astraeus Health Corporation 2022
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+//
+This is a React app that uses Redux store with a reducer and a middleware.
 
-## Available Scripts
+Your assignment is to make it more readable, and also add some functionality.
 
-In the project directory, you can run:
+Specifically, please consider doing the following, in no particular order:
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+1.  Replace single-letter variable names with something more descriptive.
+2.  Provide comments for each of the functions.
+3.  Provide a general comment for the entire program, describing its purpose.
+4.  Replace type any with something more specific.
+5.  Do not allow timer to increment counter past 10.
+6.  Trigger an alert when counter reaches 20.
+7.  If counter goes below zero, make timer decrement rather than increment it.
+8.  Add a drop-down to select increment and decrement step between 1, 2, and 3.
+9.  Use monospace font for all text on the page.
+10. Create unit tests for increment, decrement and counter functions.
+11. Create package configuration that could be used to serve the page.
+12. Change App to log the timestamp of when that component did mount.
